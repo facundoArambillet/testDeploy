@@ -15,7 +15,7 @@ import { DetalleFacturaModule } from './detalle_factura/detalleFactura.module';
 
 @Module({
   imports: [
-    ServeStaticModule.forRoot({ rootPath: join(__dirname,"..","client") }),
+    ServeStaticModule.forRoot({ rootPath: join(__dirname,"client") }),
     TypeOrmModule.forRoot(
       {
         "type": "mysql",
