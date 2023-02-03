@@ -1,0 +1,68 @@
+.caja {
+    position: relative;
+    display: inline-block;
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    color: white;
+}
+
+.logo img {
+    width: 100px !important;
+}
+.nombre {
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+.caja img {
+    width: 300px;
+}
+.caja p {
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    font-size: 11px;
+}
+.caja i {
+    padding: 3px;
+}
+.redSocial{
+    position: absolute;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, .12);
+    background-color: #f5f6f7;
+    bottom: 15%;
+    left: 5%;
+}
+#twitter {
+    color: rgb(47, 140, 177) !important;
+}
+#facebook {
+    color: blue !important;
+}
+@media (max-width: 1120px) {
+    .caja img {
+        width: 260px;
+    }
+
+    .nombre {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1040px) {
+    .caja img {
+        width: 240px;
+    }
+    .logo img {
+        width: 80px !important;
+    }
+    .nombre {
+        font-size: 14px;
+        top: 11%;
+        right: 3%;
+    }
+}

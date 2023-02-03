@@ -1,0 +1,350 @@
+:root {
+    --blanco: #f8f9fc;
+    --grisClarito: #c2c9d6;
+    --grisOscuro: #1E1F1F;
+    --negro: #111213;
+
+}
+
+* {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: normal;
+}
+
+.bg-header {
+    background-color: white;
+    color: var(--negro);
+}
+
+div p a i {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 2%;
+}
+
+.section .card {
+    margin-bottom: 5%;
+}
+
+.oculto {
+    display: none;
+}
+
+/* NAV */
+.block {
+    padding: 5%;
+    background-color: black
+}
+
+.background {
+    background-color: black
+}
+
+#logo {
+    margin-left: 0;
+}
+
+#lista {
+    align-items: center;
+}
+
+
+.nav_right>ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav_right ul li.nr_li {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+
+.nr_li a {
+    border: 1px solid transparent;
+    padding: 7px;
+    align-items: center;
+    background: none;
+    font-size: 25px;
+}
+
+.nr_li a:hover {
+    color: var(--grisClarito);
+}
+#imgLogo {
+    width: 300px;
+}
+#perfil {
+    display: none;
+}
+
+/* CARRUSEL */
+.slider {
+    margin-top: 1%; 
+    height: 90vh;
+}
+#sliderMuro {
+    display: none;
+}
+
+#logueo {
+    margin-top: 10%;
+}
+
+/* FOOTER */
+#footer {
+    background-color: var(--grisOscuro);
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+#footer div div {
+    margin-bottom: 2%;
+}
+
+#cardRegistro {
+    padding-top: 0 !important;
+    margin-top: 5%;
+}
+
+#descripcionProducto {
+    background-color: #F7F7F7;
+    border: 2px #CCCCCC solid;
+    height: 350px;
+}
+#copyright {
+    height: 50px;
+}
+/* PRODUCTO DETAIL */
+#card {
+    border: 2px solid black;
+    padding: 1.5%;
+    margin-bottom: 8%;
+}
+/* */
+#vistaAvanzada {
+    margin-top: 8%;
+}
+
+.carrito {
+    padding-top: 10%;
+}
+
+#subtotalCarrito {
+    color: rgb(92, 90, 90);
+}
+
+#totalCarrito {
+    font-size: 18px;
+}
+
+.infoCard {
+    border-bottom: 1px solid grey;
+}
+
+/* PANEL USUARIO */
+.items{
+    margin-bottom: 5%;
+}
+.cantidades {
+    width: 100px;
+}
+.divsPanelUsuario{
+    margin-bottom: 1.5%;
+}
+.btnBorrar {
+    border: 0;
+    background-color: white;
+}
+#panelContenido {
+    display:none;
+}
+
+#titulo {
+    margin-bottom: 5%; 
+    margin-top: 5%;
+}
+
+
+/* MEDIAS QUERYS */
+
+@media (max-width: 1200px) {
+
+    #vistaAvanzada {
+        margin-top: 9%;
+    }
+    #titulo {
+        margin-top: 7%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    #vistaAvanzada {
+        margin-top: 10%;
+    }
+    #card {
+        margin-bottom: 10%;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    #titulo {
+        margin-top: 8%;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    #lista {
+        align-items: flex-start !important;
+    }
+}
+
+@media (max-width: 950px) {
+
+    #vistaAvanzada {
+        margin-top: 12%;
+    }
+    .contenidoNone{
+        display: none;
+    }
+    #card {
+        margin-bottom: 12%;
+    }
+}
+
+@media (max-width: 850px) {
+
+    #vistaAvanzada {
+        margin-top: 14%;
+    }
+    #titulo {
+        margin-top: 9%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .slider {
+        display: none;
+    }
+    #sliderMuro {
+        display: flex !important;
+        justify-content: center;
+        margin-top: 11%;
+    }
+}
+
+@media (max-width: 776px) {
+
+    #vistaAvanzada {
+        margin-top: 14%;
+    }
+
+}
+@media (max-width: 767px) {
+
+    .tablaVistaAvanzada {
+        margin-top: 8% !important; 
+    }
+    #titulo {
+        margin-top: 11%;
+    }
+    .cantidades {
+        width: 85px;
+    }
+
+}
+@media (max-width: 750px) {
+
+
+    #imgMuro {
+        width: 500px;
+    }
+}
+@media (max-width: 660px) {
+
+    .tablaVistaAvanzada {
+        margin-top: 10% !important;
+    }
+    #sliderMuro {
+        margin-top: 13%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .tablaVistaAvanzada {
+        margin-top: 12% !important;
+    }
+    #titulo {
+        margin-top: 12%;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .tablaVistaAvanzada {
+        margin-top: 14% !important;
+    }
+    #sliderMuro {
+        margin-top: 15%;
+    }
+    #imgMuro {
+        width: 450px;
+    }
+}
+@media (max-width: 490px) {
+    #sliderMuro {
+        margin-top: 17%;
+    }
+    #imgMuro {
+        width: 400px;
+    }
+
+}
+@media (max-width: 470px) {
+    #logo a img {
+        width: 220px;
+    }
+    #sliderMuro {
+        margin-top: 17%;
+    }
+    #imgMuro {
+        width: 400px;
+    }
+
+}
+@media (max-width: 430px) {
+
+    #sliderMuro {
+        margin-top: 20%;
+    }
+    #imgMuro {
+        width: 350px;
+    }
+
+}
+@media (max-width: 370px) {
+
+    #imgMuro {
+        width: 300px;
+    }
+
+}

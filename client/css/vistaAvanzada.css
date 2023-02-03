@@ -1,0 +1,14 @@
+#materials div  input {
+    width: 100px;
+}
+#btnContenedor {
+    display: flex;
+    justify-content: end;
+}
+.btn-group {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#muroGenerado {
+    margin-top: 1%;
+}

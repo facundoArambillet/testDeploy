@@ -1,0 +1,170 @@
+#panelAdmin {
+  margin-top: 4%;
+}
+
+a {
+  color: black;
+}
+@media (max-width: 1350px) {
+  #panelContenido {
+      margin-top: 1%;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  #panelAdmin {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  #panelAdmin {
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  #panelAdmin {
+    margin-top: 7%;
+  }
+}
+
+@media (max-width: 950px) {
+
+  #panelAdmin {
+    margin-top: 8%;
+  }
+}
+@media (max-width: 740px) {
+  #panelContenido {
+      margin-top: 2%;
+  }
+}
+@media (max-width: 600px) {
+  #panelContenido {
+      margin-top: 4%;
+  }
+}
+@media (max-width: 520px) {
+  #panelContenido {
+      margin-top: 7%;
+  }
+}
+
+
+
+/* ActualizarEliminarMuro */
+
+.table-rwd {
+  font-size: .85em;
+  border: 1px solid rgba(181, 213, 144, 0.5);
+  color: #666;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-rwd td,
+.table-rwd th {
+  padding: .8em;
+  border-bottom: 1px solid rgba(181, 213, 144, 0.5);
+}
+
+.table-rwd th {
+  background: #1A8CFF;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table-rwd td {
+  text-align: center;
+}
+
+.table-rwd td:first-of-type {
+  text-align: left;
+}
+
+.table-rwd td:first-of-type:before {
+  content: "";
+}
+
+.table-rwd td:first-of-type:after {
+  content: "";
+}
+
+.table-rwd tr:hover {
+  background: gray;
+  color: #fff;
+}
+
+.table-rwd tr td:nth-child(2n) {
+  background: rgba(181, 213, 144, 0.2);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table-rwd {
+  min-width: 100%;
+}
+
+.table-rwd td:first-child {
+  /* position: absolute; */
+  background: #fff;
+  width: 8em;
+}
+
+.table-rwd th:first-child {
+  width: 8em;
+}
+
+.table-rwd tr:hover td:first-child {
+  background: gray;
+  color: #fff;
+}
+
+.btns-tabla {
+  background-color: transparent;
+  border: 0;
+}
+
+.menu {
+  background-color: gray;
+  --bs-link-hover-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.opcionesMenu>div {
+  height: 150px;
+  border: 2px solid #666;
+}
+
+.opcionesMenu>div>p {
+  padding: 10%
+}
+
+.crearMuro:hover {
+  background-color: #666;
+}
+
+.crearMaterial:hover {
+  background-color: #666;
+}
+
+.actualizarEliminarMuro:hover {
+  background-color: #666;
+}
+
+.actualizarEliminarMaterial:hover {
+  background-color: #666;
+}
+
+.materiales>td>input {
+  width: 100px;
+}
